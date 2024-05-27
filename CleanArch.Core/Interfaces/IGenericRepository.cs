@@ -2,6 +2,9 @@
 
 public interface IGenericRepository<T>
 {
+    /// <summary>
+    /// Common Functions which will be used by Repositories
+    /// </summary> 
     Task<T> GetAsync(int id);
     Task<IReadOnlyList<T>> GetAllAsync();
     Task<bool> AddAsync(T model);
