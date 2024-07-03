@@ -1,8 +1,3 @@
-using Microsoft.Data.SqlClient;
-using Microsoft.Extensions.Configuration;
-using System.Data;
-
-
 var builder = WebApplication.CreateBuilder(args);
 var configuration = builder.Configuration;
 
